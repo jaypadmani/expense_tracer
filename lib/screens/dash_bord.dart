@@ -10,7 +10,6 @@ class Dashboard extends StatefulWidget {
 }
 
 class _DashboardState extends State<Dashboard> {
-
   int? result;
   @override
   Widget build(BuildContext context) {
@@ -22,7 +21,6 @@ class _DashboardState extends State<Dashboard> {
             final result = await Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => AddAmount()),
-
             );
             print(result);
           } catch (e) {
@@ -43,7 +41,6 @@ class _DashboardState extends State<Dashboard> {
                 Row(
                   children: [
                     Container(
-
                       child: Icon(
                         Icons.zoom_out_map_sharp,
                         size: 25,
