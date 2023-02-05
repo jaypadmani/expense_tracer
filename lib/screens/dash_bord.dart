@@ -43,6 +43,7 @@ class _DashboardState extends State<Dashboard> {
                 Row(
                   children: [
                     Container(
+
                       child: Icon(
                         Icons.zoom_out_map_sharp,
                         size: 25,
@@ -71,7 +72,7 @@ class _DashboardState extends State<Dashboard> {
                   child: Container(
                     width: double.infinity,
                     decoration: BoxDecoration(
-                      color: Colors.black,
+                      color: Color(0xFF1D1E33),
                       borderRadius: BorderRadius.all(
                         Radius.circular(20),
                       ),

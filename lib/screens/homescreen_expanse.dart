@@ -42,7 +42,7 @@ class _HomeScreenExpnaseState extends State<HomeScreenExpnase> {
               borderRadius: BorderRadius.all(
                 Radius.circular(20),
               ),
-              color: Colors.grey,
+              color: Color(0xFFF3F3F3),
             ),
             child: Row(
               children: [
@@ -58,7 +58,7 @@ class _HomeScreenExpnaseState extends State<HomeScreenExpnase> {
                       borderRadius: BorderRadius.all(
                         Radius.circular(20),
                       ),
-                      color: Colors.blueAccent,
+                      color: Colors.lightBlueAccent,
                     ),
                   ),
                 ),
