@@ -19,8 +19,7 @@ class _HomeScreenExpnaseState extends State<HomeScreenExpnase> {
             children: [
               Text(
                 'All Expenses',
-                style: TextStyle(
-                    fontSize: 18, fontWeight: FontWeight.w700),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
               ),
               TextButton(
                 onPressed: () {},
