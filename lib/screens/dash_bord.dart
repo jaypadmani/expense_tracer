@@ -38,7 +38,6 @@ class _DashboardState extends State<Dashboard> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-
                 Row(
                   children: [
                     Container(
